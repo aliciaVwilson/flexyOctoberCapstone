@@ -122,7 +122,7 @@ p{
 
 .postCard{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -144,17 +144,8 @@ p{
   height: 470px;
 }
 
-#project2{
-  background-image: url('../stylesheets/media/imgs/postCardBack.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  width: 600px;
-  height: 470px;
-}
-
 #project3{
-  background-image: url('../stylesheets/media/imgs/postCardBack.png');
+  background-image: url('../stylesheets/media/imgs/diamond4ColorPalette.png');
   background-repeat: no-repeat;
   background-size: contain;
 
