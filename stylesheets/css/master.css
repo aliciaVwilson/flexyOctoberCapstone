@@ -1,1 +1,19 @@
 /* MASTER CSS FILE */
+
+
+.textFlexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3{
+  font-size: 1.3em;
+  font-family: plaufair display, times, serif;
+}
+
+p{
+  width: 700px;
+  font-size: 1em;
+}
