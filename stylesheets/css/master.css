@@ -52,3 +52,9 @@ p{
   color: #D0CBC5;
   padding:0 0 40px 0;
 }
+
+.iconVillageFlexContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
