@@ -19,6 +19,18 @@ h1{
   padding: 20px;
 }
 
+ul{
+  display: flex;
+  flex-direction: row;
+
+  font-size: 1em;
+  color: #CAA092;
+}
+
+ul li{
+  margin: 0 30px;
+}
+
 .heroImageFlexContainer{
   display: flex;
   height: 800px;
@@ -165,7 +177,6 @@ p{
 .posterContainer{
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 #project4{
@@ -174,7 +185,7 @@ p{
   background-size: contain;
 
   height: 900px;
-  width: 1400px;
+  width: 1375px;
 }
 
 .colorPaletteContainer{
@@ -189,7 +200,7 @@ p{
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 300px;
+  width: 244px;
   height: 300px;
 }
 
@@ -198,7 +209,7 @@ p{
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 300px;
+  width: 244px;
   height: 300px;
 }
 
@@ -207,7 +218,7 @@ p{
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 300px;
+  width: 244px;
   height: 300px;
 }
 
@@ -216,7 +227,7 @@ p{
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 300px;
+  width: 244px;
   height: 300px;
 }
 
@@ -225,14 +236,15 @@ p{
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 300px;
+  width: 244px;
   height: 300px;
 }
 
 .sunsetQuoteContainer{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 #project10{
@@ -240,30 +252,56 @@ p{
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 1400px;
-  height: 600px;
+  width: 1200px;
+  height: 800px;
 }
 
 .quoteProjectContainer{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+
 }
 
 #project11{
-  background-image: url('../stylesheets/media/imgs/postCardBack.png');
+  background-image: url('../stylesheets/media/imgs/doYourThingQuote.png');
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 600px;
-  height: 470px;
+  width: 467px;
+  height: 700px;
+  padding-bottom: 40px;
 }
 
 #project12{
-  background-image: url('../stylesheets/media/imgs/postCardBack.png');
+  background-image: url('../stylesheets/media/imgs/youngGirlQuote.png');
   background-repeat: no-repeat;
   background-size: contain;
 
   width: 600px;
   height: 470px;
+  align-self: center
+}
+
+.myTypeFace{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #CAA092;
+}
+
+.myTypeFace h3{
+  align-self: flex-start;
+
+}
+
+h2{
+  font-size: 3em;
+
+  color: #0B1C34;
+  align-self: center;
+
+  height: 400px;
+  width: 700px;
 }
