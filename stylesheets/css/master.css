@@ -58,3 +58,11 @@ p{
   flex-direction: row;
   align-items: center;
 }
+
+#iconBox1{
+  background-image: url('../stylesheets/media/imgs/starGuy.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 200px;
+}
