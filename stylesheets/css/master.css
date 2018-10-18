@@ -126,6 +126,12 @@ p{
   justify-content: space-around;
 }
 
+.palettePostCardContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 #project1{
   background-image: url('../stylesheets/media/imgs/postCardExample.png');
   background-repeat: no-repeat;
