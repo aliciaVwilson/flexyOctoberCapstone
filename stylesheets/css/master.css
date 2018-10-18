@@ -57,6 +57,12 @@ p{
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-color: #D3BBA1;
+}
+
+.iconVillageFlexContainer h3{
+  align-self: flex-start;
+  color: #0B1C34;
 }
 
 #iconBox1{
@@ -65,4 +71,42 @@ p{
   background-size: contain;
 
   width: 200px;
+  height: 200px;
+}
+
+#iconBox2{
+  background-image: url('../stylesheets/media/imgs/lightBulb.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 200px;
+  height: 200px;
+}
+
+#iconBox3{
+  background-image: url('../stylesheets/media/imgs/trophy.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 175px;
+  height: 200px;
+}
+
+#iconBox4{
+  background-image: url('../stylesheets/media/imgs/flyingTime.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 200px;
+  height: 200px;
+}
+
+#iconBox5{
+  background-image: url('../stylesheets/media/imgs/globe.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 150px;
+  height: 200px;
+  margin-top: 30px;
 }
