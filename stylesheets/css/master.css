@@ -4,10 +4,10 @@ a{
   color: inherit;
 }
 
-a:hover{
-  transition: .3s;
-  color: #D0CBC5;
-}
+  a:hover{
+    transition: .3s;
+    color: #D0CBC5;
+  }
 
 .navBarFlexContainer{
   display: flex;
@@ -73,7 +73,7 @@ h3{
 p{
   width: 700px;
   font-size: 1.2em;
-  font-family: helvetica, arial, sans-serif;
+  font-family: montserrat, helvetica, arial, sans-serif;
   line-height: 1.45em;
   color: #D0CBC5;
   padding:0 0 40px 0;
