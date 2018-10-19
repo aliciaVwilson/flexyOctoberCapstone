@@ -1,15 +1,26 @@
 /* MASTER CSS FILE */
-a{
+
+@font-face {
+  font-family: bonham;
+  src: url('type/Bonham-Regular.woff2') format('woff2'),
+       url('type/Bonham-Regular.woff') format('woff'),
+       url('type/Bonham-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+a {
   text-decoration: none;
   color: inherit;
 }
 
-  a:hover{
+  a:hover {
     transition: .3s;
     color: #D0CBC5;
   }
 
-.navBarFlexContainer{
+.navBarFlexContainer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -19,19 +30,19 @@ a{
   position: fixed;
 }
 
-.navBarUnorderedList{
+.navBarUnorderedList {
   align-items: center;
   justify-content: center;
 }
 
-h1{
+h1 {
   font-size: 2em;
-  font-family: playfair display, times, serif;
+  font-family: "playfair display", times, serif;
   color: #CAA092;
   padding: 20px 279px 20px 20px;
 }
 
-ul{
+ul {
   display: flex;
   flex-direction: row;
 
@@ -64,7 +75,7 @@ ul li{
 
 h3{
   font-size: 1.6em;
-  font-family: playfair display, times, serif;
+  font-family: "playfair display", times, serif;
   align-self: flex-start;
   padding: 80px 40px 20px 40px;
   color: #D0CBC5;
@@ -73,7 +84,7 @@ h3{
 p{
   width: 700px;
   font-size: 1.2em;
-  font-family: montserrat, helvetica, arial, sans-serif;
+  font-family: "montserrat", helvetica, arial, sans-serif;
   line-height: 1.45em;
   color: #D0CBC5;
   padding:0 0 40px 0;
@@ -315,11 +326,13 @@ p{
 }
 
 h2{
-  font-size: 3em;
+  font-size: 2.6em;
 
   color: #0B1C34;
   align-self: center;
 
-  height: 400px;
-  width: 700px;
+  height: 500px;
+  width: 850px;
+
+  font-family: bonham, "playfair display", times, serif;
 }
